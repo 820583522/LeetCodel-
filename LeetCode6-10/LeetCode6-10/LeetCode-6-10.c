@@ -59,38 +59,38 @@
 
  //mian
 
- //int main()
- //{
- //	ListNode* a1 = (ListNode*)malloc(sizeof(ListNode));
- //	
- //	ListNode* a2 = (ListNode*)malloc(sizeof(ListNode));
- //	a1->next = a2;
-	//a1->random = a2;
- //	ListNode* a3 = (ListNode*)malloc(sizeof(ListNode));
- //	a2->next = a3;
-	//a2->random = a3;
- //	ListNode* a4 = (ListNode*)malloc(sizeof(ListNode));
- //	a3->next = a4;
-	//a3->random = a4;
- //	ListNode* a5 = (ListNode*)malloc(sizeof(ListNode));
- //	a4->next = a5;
-	//a4->random = a5;
- //	ListNode* a6 = (ListNode*)malloc(sizeof(ListNode));
- //	a5->next = a6;
-	//a5->random = a6;
- //	ListNode* a7 = (ListNode*)malloc(sizeof(ListNode));
-	//a6->next = a7;
-	//a6->random = a7;
- //	a7->next = NULL;
-	//a7->random = NULL;
- //
- //
- //	ListNode* b1 = (ListNode*)malloc(sizeof(ListNode));
- //
- //	ListNode* b2 = (ListNode*)malloc(sizeof(ListNode));
- //	b1->next = b2;
- //	ListNode* b3 = (ListNode*)malloc(sizeof(ListNode));
- //	b2->next = a4;
-	//copyRandomList(a1);
-	//
- //}
+ int main()
+ {
+ 	ListNode* a1 = (ListNode*)malloc(sizeof(ListNode));
+ 	
+ 	ListNode* a2 = (ListNode*)malloc(sizeof(ListNode));
+ 	a1->next = a2;
+	a1->random = a2;
+ 	ListNode* a3 = (ListNode*)malloc(sizeof(ListNode));
+ 	a2->next = a3;
+	a2->random = a3;
+ 	ListNode* a4 = (ListNode*)malloc(sizeof(ListNode));
+ 	a3->next = a4;
+	a3->random = a4;
+ 	ListNode* a5 = (ListNode*)malloc(sizeof(ListNode));
+ 	a4->next = a5;
+	a4->random = a5;
+ 	ListNode* a6 = (ListNode*)malloc(sizeof(ListNode));
+ 	a5->next = a6;
+	a5->random = a6;
+ 	ListNode* a7 = (ListNode*)malloc(sizeof(ListNode));
+	a6->next = a7;
+	a6->random = a7;
+ 	a7->next = NULL;
+	a7->random = NULL;
+ 
+ 
+ 	ListNode* b1 = (ListNode*)malloc(sizeof(ListNode));
+ 
+ 	ListNode* b2 = (ListNode*)malloc(sizeof(ListNode));
+ 	b1->next = b2;
+ 	ListNode* b3 = (ListNode*)malloc(sizeof(ListNode));
+ 	b2->next = a4;
+	copyRandomList(a1);
+	
+ }
